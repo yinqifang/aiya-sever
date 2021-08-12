@@ -1,8 +1,12 @@
 server:
     servlet:
         context-path: /mushroom
+    port: 8088
 spring:
     profiles:
         include: version
-
-
+##### RocketMQ ####
+rocketmq:
+    name-server: 127.0.0.1:9876
+    producer:
+        group: my-group
