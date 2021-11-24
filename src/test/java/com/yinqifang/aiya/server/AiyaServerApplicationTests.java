@@ -1,10 +1,10 @@
-package com.yinqifang.mushroom.server;
+package com.yinqifang.aiya.server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MushroomServerApplicationTests {
+class AiyaServerApplicationTests {
 
     @Test
     void contextLoads() {

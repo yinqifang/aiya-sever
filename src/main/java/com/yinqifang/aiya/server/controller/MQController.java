@@ -1,4 +1,4 @@
-package com.yinqifang.mushroom.server.controller;
+package com.yinqifang.aiya.server.controller;
 
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

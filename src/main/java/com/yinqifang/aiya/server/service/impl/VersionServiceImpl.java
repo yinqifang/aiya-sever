@@ -1,6 +1,6 @@
-package com.yinqifang.mushroom.server.service.impl;
+package com.yinqifang.aiya.server.service.impl;
 
-import com.yinqifang.mushroom.server.service.VersionService;
+import com.yinqifang.aiya.server.service.VersionService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;

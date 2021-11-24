@@ -1,4 +1,4 @@
-package com.yinqifang.mushroom.server.service;
+package com.yinqifang.aiya.server.service;
 
 /**
  * @author Chris Yin

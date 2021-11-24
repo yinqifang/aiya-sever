@@ -1,14 +1,11 @@
-package com.yinqifang.mushroom.server.mq.producer;
+package com.yinqifang.aiya.server.mq.producer;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.rocketmq.client.producer.SendCallback;
-import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.messaging.support.MessageBuilder;
-import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.io.Serializable;

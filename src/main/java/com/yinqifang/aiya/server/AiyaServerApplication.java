@@ -1,13 +1,13 @@
-package com.yinqifang.mushroom.server;
+package com.yinqifang.aiya.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MushroomServerApplication {
+public class AiyaServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MushroomServerApplication.class, args);
+        SpringApplication.run(AiyaServerApplication.class, args);
     }
 
 }

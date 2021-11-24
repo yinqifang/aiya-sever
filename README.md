@@ -1,4 +1,6 @@
-# mushroom-sever
+# aiya-sever
+## 关于aiya
+字母计划系列的首个项目，取哎呀谐音，目标是提供一个C/S结构的本地化工具用于提升办公效率
 ## 说明
 * RocketMQ在windows命令行启动时，需要使用jdk1.8，且jdk目录不能包含空格（例如Program Files目录就有问题）
 ## 脚本

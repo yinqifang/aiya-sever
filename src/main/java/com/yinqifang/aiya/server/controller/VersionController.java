@@ -1,6 +1,6 @@
-package com.yinqifang.mushroom.server.controller;
+package com.yinqifang.aiya.server.controller;
 
-import com.yinqifang.mushroom.server.service.VersionService;
+import com.yinqifang.aiya.server.service.VersionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

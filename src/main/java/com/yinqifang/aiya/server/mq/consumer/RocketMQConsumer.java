@@ -1,6 +1,6 @@
-package com.yinqifang.mushroom.server.mq.consumer;
+package com.yinqifang.aiya.server.mq.consumer;
 
-import com.yinqifang.mushroom.server.mq.producer.RocketMQProducer;
+import com.yinqifang.aiya.server.mq.producer.RocketMQProducer;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;
 import org.apache.rocketmq.spring.core.RocketMQListener;
