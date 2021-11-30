@@ -6,12 +6,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 /**
+ * RocketMQ接口类
  * @author Chris Yin
  * @date 2021-08-12
  */
 @Controller
-@RequestMapping("/mq")
-public class MQController {
+@RequestMapping("/rocketmq")
+public class RocketMQController {
 
     @Autowired
     private RocketMQTemplate rocketMQTemplate;

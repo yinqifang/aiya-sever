@@ -1,4 +1,4 @@
-package com.yinqifang.aiya.server.mq.producer;
+package com.yinqifang.aiya.server.mq.rocketmq.producer;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
