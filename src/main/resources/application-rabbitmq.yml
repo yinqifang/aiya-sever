@@ -1,0 +1,11 @@
+##### RabbitMQ ####
+spring:
+    rabbitmq:
+        addresses: chrisyin.cn
+        port: 5672
+#        template:
+#            default-receive-queue: queue.aiya
+#            exchange: exchange.aiya
+#            routing-key: routing.aiya
+        username: admin
+        password: mushroom

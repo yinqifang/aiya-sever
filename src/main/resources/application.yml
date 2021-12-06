@@ -1,12 +1,10 @@
 server:
     servlet:
         context-path: /aiya
-    port: 8088
+    port: 8100
 spring:
     profiles:
-        include: version
-##### RocketMQ ####
-rocketmq:
-    name-server: 127.0.0.1:9876
-    producer:
-        group: my-group
+        include:
+            - version
+#            - rocketmq
+            - rabbitmq

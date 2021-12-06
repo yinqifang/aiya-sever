@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
  * @author Chris Yin
  * @date 2021-08-12
  */
-@Controller
+//@Controller
 @RequestMapping("/rocketmq")
 public class RocketMQController {
 
