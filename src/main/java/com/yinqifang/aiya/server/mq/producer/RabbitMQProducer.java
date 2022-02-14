@@ -1,22 +1,19 @@
 package com.yinqifang.aiya.server.mq.producer;
 
-import com.yinqifang.aiya.server.config.RabbitMQConfig;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 /**
+ * RabbitMQ消息发送
+ *
  * @author Yin Qifang
  * @date 2021-12-04
  */
-@Service
-public class RabbitMQProducer implements MQProducer{
+public interface RabbitMQProducer {
 
-    @Autowired
-    private RabbitTemplate rabbitTemplate;
-
-    @Override
-    public void sendMsg(String msg) {
-        rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_NAME_AIYA, RabbitMQConfig.ROUTING_KEY_AIYA, msg);
-    }
+    /**
+     * 发送消息
+     *
+     * @param msg          消息内容
+     * @param exchangeName exchange名称
+     * @param routingKey   routingKey名称
+     */
+    void sendMsg(String exchangeName, String routingKey, String msg);
 }

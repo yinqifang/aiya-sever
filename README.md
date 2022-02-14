@@ -74,6 +74,7 @@ sh bin/mqshutdown broker
 * [RabbitMQ安装-Windows](https://www.rabbitmq.com/install-windows.html#installer)
 * [RabbitMQ安装-CentOS 8](https://www.rabbitmq.com/install-rpm.html#apt-cloudsmith)
 * [RabbitMQ管理插件](https://www.rabbitmq.com/management.html)
+* [RabbitMQ Exchange介绍](https://www.javainuse.com/messaging/rabbitmq/exchange)
 * [RocketMQ Quick Start](https://rocketmq.apache.org/docs/quick-start/)
 * [RocketMQ 开发者指南](https://github.com/apache/rocketmq/tree/master/docs/cn)
 * [RocketMQ Console（Web管理）](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-console)
