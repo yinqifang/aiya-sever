@@ -6,7 +6,8 @@ plugins {
 
 group = 'com.yinqifang.aiya.server'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '16'
+sourceCompatibility = '8'
+
 
 configurations {
     compileOnly {
